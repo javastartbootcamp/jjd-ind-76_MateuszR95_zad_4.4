@@ -1,6 +1,5 @@
 package pl.javastart.task.client;
 
-import pl.javastart.task.bank.Config;
 import pl.javastart.task.bank.Offer;
 import pl.javastart.task.bank.SalesRepresentative;
 

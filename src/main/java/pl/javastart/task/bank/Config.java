@@ -1,9 +1,9 @@
 package pl.javastart.task.bank;
 
-public class Config {
+class Config {
 
-    protected int minRequiredEarnings = 2000;
-    protected double percentage = 0.03;
+    protected final int minRequiredEarnings = 2000;
+    protected final double percentage = 0.03;
 
     public Config() {
     }

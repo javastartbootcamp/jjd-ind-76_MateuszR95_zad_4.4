@@ -11,9 +11,9 @@ public class SalesRepresentative {
     public Offer createLoanOffer(int requestedAmount, int earnings) {
         Offer offer = new Offer();
         if (earnings >= config.minRequiredEarnings) {
-            offer.percentage = config.percentage;
-            offer.valid = true;
-            offer.value = requestedAmount;
+            offer.setPercentage(config.percentage);
+            offer.setValid(true);
+            offer.setValue(requestedAmount);
         }
         return offer;
     }

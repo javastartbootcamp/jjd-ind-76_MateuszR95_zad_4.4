@@ -2,9 +2,9 @@ package pl.javastart.task.bank;
 
 public class Offer {
 
-    protected boolean valid;
-    protected double value;
-    protected double percentage;
+    private boolean valid;
+    private double value;
+    private double percentage;
 
     public Offer() {
     }
@@ -13,11 +13,23 @@ public class Offer {
         return valid;
     }
 
+    protected void setValid(boolean valid) {
+        this.valid = valid;
+    }
+
     public double getValue() {
         return value;
     }
 
+    protected void setValue(double value) {
+        this.value = value;
+    }
+
     public double getPercentage() {
         return percentage;
+    }
+
+    protected void setPercentage(double percentage) {
+        this.percentage = percentage;
     }
 }
